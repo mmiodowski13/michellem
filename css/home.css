@@ -13,5 +13,7 @@ header {
     height: 1080px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: relative; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
