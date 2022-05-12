@@ -20,12 +20,11 @@ body {
     float: right;
     list-style: none;
     margin-top: 30px;
+    color: aliceblue;
 }
 
 .nav-area li {
     display: inline-block;
-    color: aliceblue;
-
 }
 
 .logo {
