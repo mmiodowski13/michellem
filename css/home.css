@@ -9,6 +9,9 @@
 }
 
 header {
-    background: url("images/strawbweb.png");
-    
+    background-image: url(/images/strawbweb.jpg);
+    height: 1080px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
