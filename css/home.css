@@ -8,12 +8,13 @@
     margin: auto;
 }
 
-header {
+body {
     background-image: url(/images/strawbweb.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 
 .nav-area {
@@ -27,8 +28,6 @@ header {
 
 }
 
-.nav-area li a {
-    color:blanchedalmond
-    text-decoration: none;
-    padding: 5px 2opx;
-}
+
+
+
