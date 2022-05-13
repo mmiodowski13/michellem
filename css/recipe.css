@@ -1,0 +1,108 @@
+/*
+font-family: 'Zen Loop', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.20rem;
+    line-height: 125%;
+    color: #50504f;
+}
+
+*,
+* ::before,
+*::after {
+    box-sizing: inherit;
+}
+
+nav {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    padding: 20px;
+    display:inline-block;
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:link,
+nav a:visited {
+    padding: 20px;
+    display: inline-block;
+    color: green;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:hover,
+nav a:active {
+    padding: 20px;
+    display: inline-block;
+    color: palevioletred;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: 'Zen Loop', cursive;
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 6% 0;
+    text-align: center;
+    text-shadow: 1px 3px 1px palevioletred;
+}
+
+img {
+    float: left;
+    max-width: 30%;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px pink;
+    shapre-outside: circle(50%);
+}
+
+header h2 {
+    margin-top: 8%;
+}
+
+.rate {
+    clear: both;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.emoji::after {
+    content: "\1f353"
+}
+
+.details,
+.ingredients {
+    margin-right: 16%;
+    margin-left: 2%;
+}
+
+
