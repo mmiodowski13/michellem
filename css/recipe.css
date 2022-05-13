@@ -105,4 +105,35 @@ header h2 {
     margin-left: 2%;
 }
 
+blockquote {
+    clear: both;
+    width: 300px;
+    height: 280px;
+    padding: 78px 16px 0 20px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    outline: dotted 6px red;
+    outline-offset: 4px;
+    font-family: 'Poppins', cursive;
+    font-size: 1rem;
+    margin: 40px auto;
+}
 
+blockquote small {
+    text-align: right;
+}
+
+footer {
+    background-color: darkgreen;
+    color: black;
+    padding: 2% 0;
+    margin-top: 10px;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
