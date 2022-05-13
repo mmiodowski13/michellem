@@ -137,3 +137,12 @@ footer a {
     text-decoration: none;
     color: white;
 }
+
+.col1,
+.col2 {
+    display: block;
+    float: left;
+    width: 33%;
+}
+
+
