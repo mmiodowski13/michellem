@@ -19,7 +19,7 @@ body {
 .nav-area {
     float: right;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 50px;
     color: aliceblue;
 }
 
@@ -39,6 +39,11 @@ body {
     padding: 5px 20px;
     font-family: 'Zen Loop', cursive;
     font-size: 18px;
+}
+
+.nav-area li a:hover {
+    background: aquamarine;
+    color: black
 }
 
 
