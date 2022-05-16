@@ -107,7 +107,9 @@ button {
     font-size: .75rem;
 }
 
-
+button[type=submit] {
+    margin-top: 2rem;
+}
     
 
 
