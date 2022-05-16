@@ -22,5 +22,32 @@ body {
     width: 60%;
     background-color: lightblue;
     color: black;
-    
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 0 auto;
 }
+
+nav {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    padding: 12px 16px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.policies {
+    margin-bottom: 2rem;
+}
+
+form {
+    padding-left: 3rem;
+}
+
